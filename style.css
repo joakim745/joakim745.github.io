@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+/*NAVIGATION*/
+
+#navbar {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+}
+
+.main-nav {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap:5rem;
+    padding:1rem;
+}
+
+.main-nav a:hover {
+    border-bottom: 4px solid black;
+    padding; 
+}
+
+.main-nav a {
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: black;
+}
+
+@media only screen and (max-width: 600px) {
+    .main-nav a {
+    font-size: 0.8rem;           
+    }
+}
+
+/*WELCOME*/
+
+#welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+#welcome-section h1 {
+    font-size: 5rem;
+    font-weight: lighter;
+}
+
+#welcome-section h2 {
+
+}
+
+/*PROJECTS*/
+
+#projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.project-tile h1 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+.project-tile ul {
+    font-size: 1rem;
+    list-style: none;
+}
+
+.project-tile li {
+    margin: 2rem;
+}
+
+.project-tile a {
+text-decoration: none;
+color: black;
+}
+
+.project-tile a:hover {
+    background-color: black;
+    color: white;
+}
+
+/*FOOTER*/
+
+footer {
+    width: 100%;
+    text-align: center;
+    margin: 1rem auto;
+    font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 600px) {
+    footer {
+    font-size: 0.8rem;           
+    }
+}
