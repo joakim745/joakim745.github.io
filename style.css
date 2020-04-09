@@ -76,6 +76,13 @@ body {
     height: 100vh;
 }
 
+.project-tile {
+    padding:3rem;
+    border-top-left-radius: 40px;
+    border-left: 4px solid black;
+}
+
+
 .project-tile h1 {
     text-align: center;
     font-size: 2rem;
@@ -84,7 +91,7 @@ body {
 
 .project-tile ul {
     font-size: 1rem;
-    list-style: none;
+    list-style: square;
 }
 
 .project-tile li {
