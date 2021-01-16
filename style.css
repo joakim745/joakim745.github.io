@@ -64,10 +64,12 @@ body {
     font-size: 5rem;
     font-weight: lighter;
     text-align: center;
+    background-color: white;
 }
 
 #welcome-section h2 {
     text-align: center;
+    background-color: white;
 }
 
 /*PROJECTS*/
