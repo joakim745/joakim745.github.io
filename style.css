@@ -77,8 +77,10 @@ body {
     text-align: center;
     background-color: white;
     color: darkcyan;
-    border-radius: 5px;
+    border-radius: 0px;
     padding: 0.2rem;
+    border-right: 2px inset darkcyan;
+    border-left: 2px inset darkcyan;
 }
 
 /*PROJECTS*/
