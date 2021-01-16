@@ -26,17 +26,15 @@ body {
 }
 
 .main-nav a:hover {
-    border-bottom: 4px solid black;
-    padding; 
+    border-bottom: 4px solid darkcyan;
 }
 
 .main-nav a {
-    color: white;
+    color: darkcyan;
     text-align: center;
     padding: 1rem;
     text-decoration: none;
     font-size: 1.5rem;
-    color: black;
 }
 
 @media only screen and (max-width: 600px) {
@@ -73,8 +71,6 @@ body {
     background-color: white;
     color: darkcyan;
     padding: 0.2rem;
-    border-right: 2px inset darkcyan;
-    border-left: 2px inset darkcyan;
     border-bottom: 2px inset darkcyan;
 }
 
@@ -122,7 +118,7 @@ color: black;
 }
 
 .project-tile a:hover {
-    background-color: black;
+    background-color: darkcyan;
     color: white;
 }
 
