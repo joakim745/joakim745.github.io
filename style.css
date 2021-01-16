@@ -63,24 +63,19 @@ body {
 #welcome-section h1 {
     font-size: 5rem;
     font-weight: lighter;
-    text-align: center;
     color: darkcyan;
     background-color: white;
-    border-radius: 20px 20px 0px 0px;
     padding: 0.2rem;
     border-top: 2px inset darkcyan;
-    border-right: 2px inset darkcyan;
-    border-left: 2px inset darkcyan;
 }
 
 #welcome-section h2 {
-    text-align: center;
     background-color: white;
     color: darkcyan;
-    border-radius: 0px;
     padding: 0.2rem;
     border-right: 2px inset darkcyan;
     border-left: 2px inset darkcyan;
+    border-bottom: 2px inset darkcyan;
 }
 
 /*PROJECTS*/
