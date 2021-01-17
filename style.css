@@ -62,13 +62,11 @@ body {
     font-size: 5rem;
     font-weight: lighter;
     color: darkcyan;
-    background-color: white;
     padding: 0.2rem;
     border-radius: 15px 15px 0px 0px;
 }
 
 #welcome-section h2 {
-    background-color: white;
     color: darkcyan;
     padding: 0.2rem;
     border-radius: 10px;
