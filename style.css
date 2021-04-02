@@ -120,7 +120,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 70vh;
+    height: 50vh;
 }
 
 .project-tile {
@@ -132,7 +132,8 @@ body {
 
 @media only screen and (max-width: 600px) {
     .project-tile {
-    padding:0.8rem;    
+    padding:0.8rem;
+    padding-top: 0px;
   }
 }
 
